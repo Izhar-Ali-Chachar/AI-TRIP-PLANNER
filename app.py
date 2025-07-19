@@ -13,8 +13,8 @@ class UserQuery(BaseModel):
 def home():
     return {'message': 'home of web'}
 
-@app.post('/generate')
-def generator(user_query: UserQuery):
+@app.post('/query')
+def plan_trip(user_query: UserQuery):
     graph_builder = GraphBuilder()
     graph = graph_builder.build_graph()
 
