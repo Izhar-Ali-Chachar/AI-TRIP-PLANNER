@@ -12,5 +12,4 @@ langchain_google_community
 langchain_tavily
 langchain_groq
 langgraph
-
--e .
+langchain-google-community[places]
